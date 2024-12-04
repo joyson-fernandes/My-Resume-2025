@@ -3922,6 +3922,8 @@ input, select, textarea {
 
              /* Social media links */
 
+
+
 .actions {
     list-style: none; /* Removes bullet points */
     padding: 0; /* Removes padding */
@@ -3941,3 +3943,35 @@ input, select, textarea {
 .actions a:hover {
     color: #007bff; /* Changes color on hover, can customize */
 }
+
+
+   /* PROFESSIONAL CERTIFICATIONS Icon Settings */
+
+   .features {
+    display: flex;                    /* Use flexbox for horizontal layout */
+    flex-wrap: wrap;                 /* Allow wrapping to next line if needed */
+    justify-content: space-between;   /* Space between sections */
+    margin-top: 20px;                /* Space above the features */
+}
+
+   .certifications-wrapper {
+    display: flex;                 /* Use flexbox for side-by-side display */
+    justify-content: space-between;/* Space between the items */
+    align-items: center;           /* Center items vertically */
+    flex-wrap: wrap;               /* Allow wrapping for responsiveness */
+}
+
+.certification-wrapper {
+    margin-right: 20px;           /* Space between certifications */
+    text-align: center;            /* Center text under the icon */
+}
+
+.certification-icon {
+    border-radius: 0;               /* Remove circular border */
+    width: 120px;                   /* Adjust to desired width */
+    height: auto;                   /* Maintain aspect ratio */
+	display: block;               /* Styling adjustments */
+    margin-right: 10px;            /* Space between icon and text */
+    max-width: 100%;                /* Prevents it from exceeding parent width */
+}
+
