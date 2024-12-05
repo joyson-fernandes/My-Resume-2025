@@ -3974,3 +3974,21 @@ input, select, textarea {
     margin-right: 10px;            /* Space between icon and text */
     max-width: 100%;                /* Prevents it from exceeding parent width */
 }
+
+ /* for intro section for type and delete words effect */
+
+.typewriter {
+    font-family: Arial, sans-serif; /* Customize font as needed */
+    font-size: 2rem;               /* Set your desired font size */
+    white-space: nowrap;           /* Prevent text wrapping */
+    border-right: 3px solid;      /* Cursor effect */
+    width: fit-content;            /* Adjust to text size */
+    overflow: hidden;              /* Hide overflow characters */
+    animation: caret-blink 0.75s step-end infinite; /* Cursor blink effect */
+}
+
+@keyframes caret-blink {
+    50% {
+        border-color: transparent; /* Cursor blinks */
+    }
+}
