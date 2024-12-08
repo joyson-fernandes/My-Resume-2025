@@ -1,4 +1,4 @@
-const fetchUrl = 'https://mdfeed.joysontech.com/medium-articles'; // Use your server URL
+const fetchUrl = 'http://18.170.102.116:5000/medium-articles'; // Use your server URL
 
 fetch(fetchUrl)
     .then(response => response.json()) // Parse the JSON response directly
